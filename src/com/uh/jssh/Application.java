@@ -14,7 +14,7 @@ import com.uh.jssh.util.Timetable;
 public class Application {
 
 	 private static List<List<String>> updatedLists;
-	private static List<String> timeTableList; // Each string could be "ID,Grade,Date,Time,Coach,Day"
+	private static List<String> timeTableList; // Each string could be "ID,Grade,Date,Time,Coach,Day "
 	    private static List<String> bookingDetailsList; // Each string could be "BookingID,LearnerID,TimeTableID,Status"
 	    private static HashMap<String, LearnerDetails> learnerInfo; // Key: LearnerID, Value: "Name,Age,Gender,Contact"
 
