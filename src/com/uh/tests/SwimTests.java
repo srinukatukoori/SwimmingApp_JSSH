@@ -18,7 +18,7 @@ class SwimTests {
 	@Test
 	public void swimLessonBooking() {
 		System.out.println("test -- book a swim lesson");
-		List<String> timeTableList; // Each string could be "ID,Grade,Date,Time,Coach,Day"
+		List<String> timeTableList; // Each string could be "ID,Grade,Date,Time,Coach,Day "
 	    List<String> bookingDetailsList; // Each string could be "BookingID,LearnerID,TimeTableID,Status"
 	     HashMap<String, LearnerDetails> learnerInfo; // Key: LearnerID, Value: "Name,Age,Gender,Contact"
 
