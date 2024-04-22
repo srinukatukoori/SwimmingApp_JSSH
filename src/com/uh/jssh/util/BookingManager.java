@@ -10,7 +10,7 @@ public class BookingManager {
 
     public static List<String> getBookingDetails() {
         bookingDetails = new ArrayList<>();
-//        Raj,Joseph,Venu,Madhu,Gopi,
+//        Raj,Joseph,Venu,Madhu,Gopi
         // Populate the booking details list with sample data
         addBookingDetail("1", "cust11", "Grade 1", "Raj", "18/3/2023", "attended", "4", "good session", "10");
         addBookingDetail("2", "cust02", "Grade 2", "Joseph", "3/4/2023", "booked", "", "", "1");
