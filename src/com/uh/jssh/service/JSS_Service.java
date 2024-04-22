@@ -14,7 +14,7 @@ public class JSS_Service {
 	   private Scanner scanner = new Scanner(System.in);
 	    private Learner learner = new Learner();
 
-	  // Method to book a session. Takes user and class selection parameters as input instead of reading from console.
+	  // Method to book a session. Takes user and class selection parameters as input instead of reading from console
     public List<List<String>> bookASession(List<String> timetable, List<String> bookingData,Map<String, LearnerDetails> learnerInfo,String learnerID) {
         Scanner scanner = new Scanner(System.in);
         String selection="";
